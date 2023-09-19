@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+/* gloabal css */
+.col-lg-12{
+    width: 100%;
+    float: left;
+}
+.col-lg-4{
+    width: 33.33%;
+    float: left;
+}
+.col-lg-2{
+    width: 16.66%;
+    float: left;
+}
+
+/* nebver css start */
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-left: 50px;
+}
+
+.navbar-brand img, svg {
+    vertical-align: middle;
+    width: 22%;
+    border-radius: 33%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    margin: 0px 24px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    border-radius: 20%;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: brown;
+    background-color: aqua;
+}
+/* nebver css end */
+
+/* <!-- banner part start --> */
+.banner-section {
+    width: 100%;
+    background: url(../photo/banner\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -29px;
+}
+.container{
+    width: 100%;
+}
+
+.banner-section .inner-banner {
+    width: 100%;
+    text-align: center;
+    padding: 109px 0px;
+}
+
+.banner-section .inner-banner h1 {
+    font-size: 40px;
+    margin: 30px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.banner-section .inner-banner p {
+    font-size: 23px;
+    margin: 30px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 30px 0px;
+}
+.banner-section .inner-banner .btn-dark {
+    font-size: 17px;
+    font-weight: 600;
+    color: #0b0c0c;
+    background-color: aqua;
+    padding: 16px;
+    border-radius: 20%;
+    transition: 2s;
+}
+.banner-section .inner-banner .btn-dark:hover{
+    color: blue;
+    background-color: #fff;
+}
+/* <!-- banner part end --> */
+
+/* chose part start */
+
+.chosee {
+    width: 100%;
+    padding: 43px 0px;
+}
+.chosee .inner-chose {
+    width: 100%;
+    text-align: center;
+    padding: 36px 0px;
+}
+.inner-chose h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+.inner-chose .divider {
+    width: 109px;
+    border: 5px solid #0b0c0c;
+    margin-left: 500px;
+    margin-top: 17px;
+}
+.chosee .satting .about{
+    width: 100%;
+    text-align: center
+}
+
+.chosee .satting .about h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.chosee .satting .about p {
+    font-size: 15px;
+    font-style: inherit;
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.chosee .satting .about .fa-cog {
+    font-size: 70px;
+    padding: 25px 0px;
+}
+.chosee .satting .about a {
+    font-size: 17px;
+    font-weight: 600;
+    color: #0b0c0c;
+    background-color: #BC4C24;
+    padding: 12px 34px;
+    border-radius: 12%;
+    transition: 1s;
+    text-decoration: none;
+    border: 3px solid #9cfd31;
+}
+.chosee .satting .about a:hover{
+    color: blue;
+    background-color: #49f7f7;
+}
+
+/* service section start */
+
+.Service{
+    width: 100%;
+    padding: 20px 0px;
+}
+.Service h1 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.Service .inner-service {
+    width: 100%;
+    float: left;
+    padding-bottom: 52px;
+}
+.Service .inner-service .inner-picture img {
+    width: 50%;
+    margin-left: 40px;
+}
+.Service .inner-service .inner-peragraph p {
+    font-size: 15px;
+    text-align: justify;
+    padding: 7px;
+    font-weight: 500;
+}
+/* service section end */
+
+
+/* footer section start */
+
+
+.footer-section{
+    width: 100%;
+    background-color: aliceblue;
+    float: left;
+}
+.footer-section .inner-footer{
+    width: 100%;
+    padding: 10px 0px;
+    float: left;
+}
+.footer-section .inner-footer .text h1 {
+    font-size: 20px;
+    margin-top: 24px;
+}
+.footer-section .inner-footer .icon {
+    width: 100%;
+    float: left;
+    margin-left: 116px;
+}
+.footer-section .inner-footer .icon ul{
+    list-style: none;
+    display: block;
+}
+.footer-section .inner-footer .icon ul li{
+    display: inline;
+}
+.footer-section .inner-footer .icon ul li i {
+    text-align: center;
+    font-size: 17px;
+    padding: 18px 26px;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #1dd1e3;
+    border-radius: 35%;
+    margin-top: 12px;
+    margin-left: 25px;
+    transition: 1s;
+}
+.footer-section .inner-footer .icon ul li i:hover{
+    color: #0b0c0c;
+    background-color: aliceblue;
+}
+/* footer section end */
+
+
